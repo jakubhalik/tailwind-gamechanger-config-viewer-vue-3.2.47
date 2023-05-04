@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     // aspect
     aspectRatio: {
@@ -362,6 +362,15 @@ module.exports = {
     },
     // break-after: auto, avoid, all, avoid-page, page, left, right, column
     // break-before: auto, avoid, all, avoid-page, page, left, right, column
+    // break-inside: auto, avoid, avoid-page, column
+    // box-decoration: slice, clone
+    // box: border, content
+    /* display: 
+        block, inline-block, flex, inline-flex, table, inline-table, table-caption, 
+        table-cell, table-column, table-column-group, table-footer-group,
+        table-header-group, table-row-group, table-row, flow-root, grid, inline-grid,
+        contents, list-item, hidden */
+    
     extend: {},
   },
   plugins: [],
