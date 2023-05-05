@@ -370,22 +370,12 @@ module.exports = {
         table-cell, table-column, table-column-group, table-footer-group,
         table-header-group, table-row-group, table-row, flow-root, grid, inline-grid,
         contents, list-item, hidden */
-    debugScreens: {
-      position: ['bottom', 'left'],
-      style: {
-        backgroundColor: '#fff',
-        color: '#000',
-      },
-      prefix: 'screen: ',
-      selector: '.debug-screens',
-    },
+    
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('tailwindcss-debug-screens'),
-  ],
+  plugins: [],
 }
 
